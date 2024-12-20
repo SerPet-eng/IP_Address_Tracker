@@ -1,0 +1,14 @@
+// RESET STYLE
+@import './reset';
+
+// MAIN STYLE
+@import './styles/app';
+@import './styles/form_handler';
+@import './styles/form';
+@import './styles/map';
+@import './styles/result';
+
+// MEDIA QUERY
+@import './media_query/result_query';
+@import './media_query/formHandler_query';
+@import './media_query/form_query';

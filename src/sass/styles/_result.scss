@@ -1,0 +1,36 @@
+@use '../variables/variables.scss' as *;
+
+.result {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+
+  padding: 1rem;
+  margin-top: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px $neutralColor-900;
+
+  background-color: white;
+
+  .result-container {
+    border-right: 2px solid $neutralColor-800;
+    padding: 1rem 2.5rem 1rem 1rem;
+    .result-container-text {
+      text-transform: uppercase;
+      font-size: 0.75rem;
+      font-weight: $fw500;
+      color: $neutralColor-800;
+    }
+    .result-container-display {
+      font-size: 1.25rem;
+      font-weight: $fw700;
+      color: $neutralColor-900;
+    }
+  }
+
+  //temporary... can be refactor
+  #isp {
+    border: none;
+  }
+}

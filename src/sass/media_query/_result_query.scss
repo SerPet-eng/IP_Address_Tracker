@@ -1,0 +1,13 @@
+@media only screen and (max-width: 650px) {
+  .result {
+    flex-direction: column;
+    margin-top: auto;
+    padding: 1rem 6rem;
+    gap: 0;
+    .result-container {
+      border: none;
+      text-align: center;
+      padding: 0;
+    }
+  }
+}

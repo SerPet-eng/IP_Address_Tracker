@@ -1,0 +1,24 @@
+@use '../variables/variables.scss' as *;
+
+.form {
+  display: flex;
+  align-items: center;
+
+  .form-input {
+    width: 30rem;
+
+    padding: 0.5rem 0.75rem;
+    border: none;
+    border-radius: 10px 0 0 10px;
+  }
+
+  .form-input-button {
+    background-color: $neutralColor-900;
+    padding: 0.9rem;
+
+    border: none;
+    border-radius: 0 10px 10px 0;
+
+    cursor: pointer;
+  }
+}
